@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "robot-project"
+version = "0.1.0"
+description = "Robot Framework Automation Project"
+authors = ["Teuku Arinal"]
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.14"
+robotframework = "^7.2.2"
+robotframework-seleniumlibrary = "^6.7.1"
+webdriver-manager = "^4.0.2"
+chromedriver-autoinstaller = "^0.6.4"
+robotframework-requests = "^0.9.4"
+robotframework-pabot = "^2.12.0"
+allure-robotframework = "^2.13.5"
+faker = "^37.0.0"
+jsonschema = "^4.23.0"
+robotframework-jsonlibrary = "^0.5"
+robotframework-faker = "^5.0.0"
+
+[tool.poetry.group.dev.dependencies]
+robotframework-robocop = "^5.8.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+test = "robot_project.run_tests:run_tests"
