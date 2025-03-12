@@ -60,10 +60,10 @@ Run all Web tests:
 poetry run test web
 ```
 
-Run a specific Web test with a tag (e.g: login_success):
+Run a specific Web test with a tag (e.g: checkout):
 
 ```sh
-poetry run test login_success
+poetry run test checkout
 ```
 
 ## 📊 Viewing Test Reports (on development)
