@@ -84,7 +84,6 @@ robot-project/
 │   ├── drivers/            # ChromeDriver management
 │   ├── resources/
 │   │   ├── keywords/       # Collection of keywords for API & Web
-│   │   ├── payloads/       # JSON for API request bodies
 │   │   ├── schemas/        # JSON Schema for response validation
 │   │   ├── variables/      # Global variables for tests
 │-- tests/
