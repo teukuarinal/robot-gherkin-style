@@ -5,8 +5,8 @@ Variables     ../../resources/variables/data.py
 Test Tags     web    checkout
 
 *** Test Cases ***
-User Adds product To Cart
-    [Tags]    add_to_cart
+User Checkout Product
+    [Tags]    checkout
     Given User open SauceDemo
     When User login with username ${USERNAME} and password ${PASSWORD}
     And User Add Items To Cart By Name    Test.allTheThings() T-Shirt (Red)    Sauce Labs Backpack
