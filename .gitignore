@@ -1,0 +1,28 @@
+# Output Result Robot Framework
+output/
+log.html
+report.html
+output.xml
+debug.log
+
+# Allure Report
+output/allure
+allure-results/
+allure-report/
+
+# Virtual Environment & Dependencies
+venv/
+.env
+Pipfile.lock
+__pycache__/
+*.pyc
+*.pyo
+
+# Selenium & WebDriver Logs
+*.log
+geckodriver.log
+chromedriver.log
+
+# Editor & IDE
+.vscode/
+.idea/
