@@ -5,7 +5,7 @@
 This project combines Web Automation and API Automation using Robot Framework. 
 The repository structure consists of `tests`, `keywords`, and `resources` that support flexible automation testing.
 
-## 🛠 Prerequisites
+## 🛠️ Prerequisites
 
 Before running this project, make sure you have installed:
 
