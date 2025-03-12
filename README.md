@@ -46,7 +46,7 @@ Run all API tests:
 poetry run test api
 ```
 
-Run a specific API test with a tag:
+Run a specific API test with a tag (e.g: get_user):
 
 ```sh
 poetry run test get_user
@@ -60,7 +60,7 @@ Run all Web tests:
 poetry run test web
 ```
 
-Run a specific Web test with a tag:
+Run a specific Web test with a tag (e.g: login_success):
 
 ```sh
 poetry run test login_success
@@ -78,19 +78,21 @@ poetry run allure serve output
 
 ```sh
 robot-project/
-│-- output/               # Test execution results
-│-- reports/              # Test result reports
+│-- output/                 # Test execution results
+│-- reports/                # Test result reports
 │-- robot_project/
-│   ├── drivers/          # ChromeDriver management
+│   ├── drivers/            # ChromeDriver management
 │   ├── resources/
-│   │   ├── keywords/     # Collection of keywords for API & Web
-│   │   ├── payloads/     # JSON for API request bodies
-│   │   ├── schemas/      # JSON Schema for response validation
-│   │   ├── variables/    # Global variables for tests
+│   │   ├── keywords/       # Collection of keywords for API & Web
+│   │   ├── payloads/       # JSON for API request bodies
+│   │   ├── schemas/        # JSON Schema for response validation
+│   │   ├── variables/      # Global variables for tests
 │-- tests/
-│   ├── api.robot         # API test cases
-│   ├── checkout.robot    # Checkout flow test cases
-│   ├── login.robot       # Login flow test cases
-│-- run_tests.py          # Script to run tests
-│-- pyproject.toml        # Poetry configuration
+│   ├── api/                
+│   │   ├── api.robot       # API test cases
+│   ├── web/                
+│   │   ├── checkout.robot  # Checkout flow test cases
+│   │   ├── login.robot     # Login flow test cases
+│-- run_tests.py            # Script to run tests
+│-- pyproject.toml          # Poetry configuration
 ```
