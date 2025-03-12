@@ -18,8 +18,8 @@ Before running this project, make sure you have installed:
 Clone this repository:
 
 ```sh
-git clone https://github.com/username/repository.git
-cd repository
+git clone https://github.com/teukuarinal/robot-gherkin-style.git
+cd robot-gherkin-style
 ```
 
 Install dependencies using Poetry:
